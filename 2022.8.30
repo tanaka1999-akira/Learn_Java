@@ -1,0 +1,36 @@
+my first error
+
+i wrote a basic code,i use cmd line to run it.
+
+source file  MyFirstAPP.java:
+
+public class MyFirstAPP {
+   
+   public static void main(String[] args) {
+     System.out.println("I Rule");
+	 System.out.println("The World!");
+   }
+   
+}
+
+use cd d: /d 'file' to change the catagory
+then 
+javac MyFirstAPP.java  %to compile
+
+but i got this:
+javac MyFirstAPP.java
+MyFirstAPP.java:3: 错误: 找不到符号
+   public static void main(string[] args) {
+                           ^
+  符号:   类 string
+  位置: 类 MyFirstAPP
+1 个错误
+
+it seems that i should use uppercase letter for String.
+then it works,i got MyFirstAPP.class in the file!
+
+next,
+java MyFirstAPP
+i get:
+I Rule
+The World!
