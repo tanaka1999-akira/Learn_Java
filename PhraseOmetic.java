@@ -20,3 +20,4 @@ public class PhraseOmetic {
 		System.out.println("what we need is a" + phrase);
 	}
 }
+//sometimes,many errors dont mean you need to change a lot , a single error can cause a lot error,all you need to do is correct a error,then other errors will go.
